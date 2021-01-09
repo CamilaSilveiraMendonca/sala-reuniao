@@ -11,8 +11,8 @@ import { Router, ActivatedRoute } from '@angular/router';
 })
 export class RoomDetailsComponent implements OnInit {
 
-  id: number;
-  room: Room;
+  id!: number;
+  room!: Room;
 
   constructor(private route: ActivatedRoute,private router: Router,
     private roomService: RoomService) { }

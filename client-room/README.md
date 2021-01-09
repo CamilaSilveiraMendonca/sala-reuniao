@@ -1,6 +1,6 @@
 # ClientRoom
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0-rc.7.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
 
 ## Development server
 
@@ -22,26 +22,12 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Requisitos
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+NodeJs, Npm e Angular
 
-## verificar vesao nodejs
-node -v
+## visualizar projeto
 
-### verificar versao npm 
-npm -v
-
-### instalar angular 9
-npm install -g @angular/cli@9.0.0-rc.7
-
-### verificar versao angular
-ng --version
-
-### criar projeto 
-ng new client-room
-
-
-
-
+abra a pasta salareuniao com sua IDE de preferência e execute o projeto, ele será aberto em http://localhost:8081/api/v1/rooms
+abra a pasta client-room com sua IDE de preferência, dê npm install e npm start, ele ficará aberto emhttp://localhost:4200/rooms
 
